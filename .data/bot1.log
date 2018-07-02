@@ -871,3 +871,677 @@
 {"level":"error","message":"[Renderer] Renderer not defined (#Với khoảng cách ${data.distanceValue} m, bạn sẽ phải trả ${data.distanceValue} đồng.)","timestamp":"2018-06-30T05:09:59.932Z"}
 {"message":"Unhandled Rejection in Promise:  Promise {\n  _bitField: 18087936,\n  _fulfillmentHandler0: Error: [Renderer] Renderer not defined (#Với khoảng cách ${data.distanceValue} m, bạn sẽ phải trả ${data.distanceValue} đồng.)\n    at F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:165:13\n    at tryCatch (F:\\botpress\\node_modules\\regenerator-runtime\\runtime.js:65:40)\n    at Generator.invoke [as _invoke] (F:\\botpress\\node_modules\\regenerator-runtime\\runtime.js:303:22)\n    at Generator.prototype.(anonymous function) [as next] (F:\\botpress\\node_modules\\regenerator-runtime\\runtime.js:117:21)\n    at n (F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:115:9)\n    at F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:115:9\n    at Promise._execute (F:\\botpress\\node_modules\\bluebird\\js\\release\\debuggability.js:303:9)\n    at Promise._resolveFromExecutor (F:\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:483:18)\n    at new Promise (F:\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:79:10)\n    at r (F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:115:9)\n    at _ (F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:115:9)\n    at Object.e.reply (F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:184:14)\n    at F:\\botpress\\src\\actions.js:21:10\n    at F:\\botpress\\node_modules\\google-distance\\index.js:21:14\n    at formatResults (F:\\botpress\\node_modules\\google-distance\\index.js:103:10)\n    at F:\\botpress\\node_modules\\google-distance\\index.js:19:5,\n  _rejectionHandler0: undefined,\n  _promise0: undefined,\n  _receiver0: undefined } Reason:","stack":"Error: [Renderer] Renderer not defined (#Với khoảng cách ${data.distanceValue} m, bạn sẽ phải trả ${data.distanceValue} đồng.)\n    at F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:165:13\n    at tryCatch (F:\\botpress\\node_modules\\regenerator-runtime\\runtime.js:65:40)\n    at Generator.invoke [as _invoke] (F:\\botpress\\node_modules\\regenerator-runtime\\runtime.js:303:22)\n    at Generator.prototype.(anonymous function) [as next] (F:\\botpress\\node_modules\\regenerator-runtime\\runtime.js:117:21)\n    at n (F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:115:9)\n    at F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:115:9\n    at Promise._execute (F:\\botpress\\node_modules\\bluebird\\js\\release\\debuggability.js:303:9)\n    at Promise._resolveFromExecutor (F:\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:483:18)\n    at new Promise (F:\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:79:10)\n    at r (F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:115:9)\n    at _ (F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:115:9)\n    at Object.e.reply (F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:184:14)\n    at F:\\botpress\\src\\actions.js:21:10\n    at F:\\botpress\\node_modules\\google-distance\\index.js:21:14\n    at formatResults (F:\\botpress\\node_modules\\google-distance\\index.js:103:10)\n    at F:\\botpress\\node_modules\\google-distance\\index.js:19:5","level":"error","timestamp":"2018-06-30T05:10:00.041Z"}
 {"level":"error","message":"Error: [Renderer] Renderer not defined (#Với khoảng cách ${data.distanceValue} m, bạn sẽ phải trả ${data.distanceValue} đồng.)\n    at F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:165:13\n    at tryCatch (F:\\botpress\\node_modules\\regenerator-runtime\\runtime.js:65:40)\n    at Generator.invoke [as _invoke] (F:\\botpress\\node_modules\\regenerator-runtime\\runtime.js:303:22)\n    at Generator.prototype.(anonymous function) [as next] (F:\\botpress\\node_modules\\regenerator-runtime\\runtime.js:117:21)\n    at n (F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:115:9)\n    at F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:115:9\n    at Promise._execute (F:\\botpress\\node_modules\\bluebird\\js\\release\\debuggability.js:303:9)\n    at Promise._resolveFromExecutor (F:\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:483:18)\n    at new Promise (F:\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:79:10)\n    at r (F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:115:9)\n    at _ (F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:115:9)\n    at Object.e.reply (F:\\botpress\\node_modules\\botpress\\lib\\webpack:\\src\\renderers\\index.js:184:14)\n    at F:\\botpress\\src\\actions.js:21:10\n    at F:\\botpress\\node_modules\\google-distance\\index.js:21:14\n    at formatResults (F:\\botpress\\node_modules\\google-distance\\index.js:103:10)\n    at F:\\botpress\\node_modules\\google-distance\\index.js:19:5","timestamp":"2018-06-30T05:10:00.042Z"}
+{"level":"info","message":"Starting botpress version 10.20.1","timestamp":"2018-07-02T02:39:59.720Z"}
+{"level":"info","message":"[Ghost Content Manager] (transparent) Initialized","timestamp":"2018-07-02T02:39:59.920Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\media, doing nothing.","timestamp":"2018-07-02T02:39:59.925Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\flows, doing nothing.","timestamp":"2018-07-02T02:39:59.926Z"}
+{"level":"info","message":"[Skills] Initiated","timestamp":"2018-07-02T02:39:59.927Z"}
+{"level":"info","message":"Loaded @botpress/analytics, version 10.20.1","timestamp":"2018-07-02T02:39:59.936Z"}
+{"level":"info","message":"Loaded @botpress/audience, version 10.20.1","timestamp":"2018-07-02T02:39:59.938Z"}
+{"level":"verbose","message":"[Renderers] Enabled for facebook.","timestamp":"2018-07-02T02:39:59.955Z"}
+{"level":"info","message":"Loaded @botpress/channel-messenger, version 10.17.3","timestamp":"2018-07-02T02:39:59.955Z"}
+{"level":"verbose","message":"[Renderers] Enabled for webchat.","timestamp":"2018-07-02T02:40:00.152Z"}
+{"level":"info","message":"Loaded @botpress/channel-web, version 10.20.1","timestamp":"2018-07-02T02:40:00.153Z"}
+{"level":"info","message":"Loaded @botpress/hitl, version 10.20.1","timestamp":"2018-07-02T02:40:00.157Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\intents, doing nothing.","timestamp":"2018-07-02T02:40:00.601Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\entities, doing nothing.","timestamp":"2018-07-02T02:40:00.603Z"}
+{"level":"info","message":"Loaded @botpress/nlu, version 10.20.1","timestamp":"2018-07-02T02:40:00.603Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder qna, doing nothing.","timestamp":"2018-07-02T02:40:00.609Z"}
+{"level":"info","message":"Loaded @botpress/qna, version 10.20.1","timestamp":"2018-07-02T02:40:00.609Z"}
+{"level":"info","message":"Loaded @botpress/skill-choice, version 10.20.1","timestamp":"2018-07-02T02:40:00.616Z"}
+{"level":"info","message":"Loaded 8 modules","timestamp":"2018-07-02T02:40:00.616Z"}
+{"level":"info","message":"[Skills] Loaded 1 skills","timestamp":"2018-07-02T02:40:00.617Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\content, doing nothing.","timestamp":"2018-07-02T02:40:00.617Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-07-02T02:40:00.642Z"}
+{"level":"debug","message":"Loading middleware: rendering.instrumentation","timestamp":"2018-07-02T02:40:00.642Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureInMessages","timestamp":"2018-07-02T02:40:00.643Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-07-02T02:40:00.643Z"}
+{"level":"debug","message":"Loading middleware: nlu.incoming","timestamp":"2018-07-02T02:40:00.644Z"}
+{"level":"debug","message":"Loading middleware: qna.incoming","timestamp":"2018-07-02T02:40:00.644Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-07-02T02:40:00.644Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureOutMessages","timestamp":"2018-07-02T02:40:00.645Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-07-02T02:40:00.645Z"}
+{"level":"debug","message":"Loading middleware: webchat.sendMessages","timestamp":"2018-07-02T02:40:00.646Z"}
+{"level":"debug","message":"Loading middleware: fallback","timestamp":"2018-07-02T02:40:00.646Z"}
+{"level":"debug","message":"Loading data for builtin_text from builtin_text.json","timestamp":"2018-07-02T02:40:00.685Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: https://3d80df33.ngrok.io\u001b[22m\u001b[39m","timestamp":"2018-07-02T02:40:00.704Z"}
+{"level":"info","message":"Read 26 item(s) from builtin_text.json","timestamp":"2018-07-02T02:40:00.710Z"}
+{"level":"debug","message":"Loading data for builtin_image from builtin_image.json","timestamp":"2018-07-02T02:40:00.720Z"}
+{"level":"debug","message":"Loading data for builtin_single-choice from builtin_single-choice.json","timestamp":"2018-07-02T02:40:00.721Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_single-choice.json","timestamp":"2018-07-02T02:40:00.722Z"}
+{"level":"debug","message":"Loading data for builtin_card from builtin_card.json","timestamp":"2018-07-02T02:40:00.723Z"}
+{"level":"debug","message":"Loading data for builtin_action-button from builtin_action-button.json","timestamp":"2018-07-02T02:40:00.724Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_action-button.json","timestamp":"2018-07-02T02:40:00.724Z"}
+{"level":"debug","message":"Loading data for builtin_carousel from builtin_carousel.json","timestamp":"2018-07-02T02:40:00.725Z"}
+{"level":"debug","message":"Loading data for builtin_raw from builtin_raw.json","timestamp":"2018-07-02T02:40:00.726Z"}
+{"level":"debug","message":"[NLU::Native] Model is up to date","timestamp":"2018-07-02T02:40:01.182Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T02:40:01.183Z"}
+{"level":"info","message":"Webchat available at https://3d80df33.ngrok.io/s/chat","timestamp":"2018-07-02T02:40:01.183Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T02:40:01.184Z"}
+{"message":"An error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#2200) Callback verification failed with the following errors: HTTP Status Code = 404; HTTP Message = Not Found","stack":"Error: An error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#2200) Callback verification failed with the following errors: HTTP Status Code = 404; HTTP Message = Not Found\n    at F:\\botpress\\node_modules\\@botpress\\channel-messenger\\bin\\webpack:\\src\\messenger.js:621:15\n    at PassThroughHandlerContext.finallyHandler (F:\\botpress\\node_modules\\bluebird\\js\\release\\finally.js:56:23)\n    at PassThroughHandlerContext.tryCatcher (F:\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (F:\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (F:\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromise0 (F:\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:614:10)\n    at Promise._settlePromises (F:\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:693:18)\n    at Async._drainQueue (F:\\botpress\\node_modules\\bluebird\\js\\release\\async.js:133:16)\n    at Async._drainQueues (F:\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)\n    at Immediate.Async.drainQueues (F:\\botpress\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:810:20)\n    at tryOnImmediate (timers.js:768:5)\n    at processImmediate [as _immediateCallback] (timers.js:745:5)","level":"error","timestamp":"2018-07-02T02:40:01.707Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T02:40:05.604Z"}
+{"level":"info","message":"Starting botpress version 10.20.1","timestamp":"2018-07-02T02:42:20.808Z"}
+{"level":"info","message":"[Ghost Content Manager] (transparent) Initialized","timestamp":"2018-07-02T02:42:20.978Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\media, doing nothing.","timestamp":"2018-07-02T02:42:20.984Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\flows, doing nothing.","timestamp":"2018-07-02T02:42:20.986Z"}
+{"level":"info","message":"[Skills] Initiated","timestamp":"2018-07-02T02:42:20.987Z"}
+{"level":"info","message":"Loaded @botpress/analytics, version 10.20.1","timestamp":"2018-07-02T02:42:20.995Z"}
+{"level":"info","message":"Loaded @botpress/audience, version 10.20.1","timestamp":"2018-07-02T02:42:20.998Z"}
+{"level":"verbose","message":"[Renderers] Enabled for facebook.","timestamp":"2018-07-02T02:42:21.012Z"}
+{"level":"info","message":"Loaded @botpress/channel-messenger, version 10.17.3","timestamp":"2018-07-02T02:42:21.012Z"}
+{"level":"verbose","message":"[Renderers] Enabled for webchat.","timestamp":"2018-07-02T02:42:21.173Z"}
+{"level":"info","message":"Loaded @botpress/channel-web, version 10.20.1","timestamp":"2018-07-02T02:42:21.174Z"}
+{"level":"info","message":"Loaded @botpress/hitl, version 10.20.1","timestamp":"2018-07-02T02:42:21.178Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\intents, doing nothing.","timestamp":"2018-07-02T02:42:21.479Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\entities, doing nothing.","timestamp":"2018-07-02T02:42:21.482Z"}
+{"level":"info","message":"Loaded @botpress/nlu, version 10.20.1","timestamp":"2018-07-02T02:42:21.483Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder qna, doing nothing.","timestamp":"2018-07-02T02:42:21.489Z"}
+{"level":"info","message":"Loaded @botpress/qna, version 10.20.1","timestamp":"2018-07-02T02:42:21.489Z"}
+{"level":"info","message":"Loaded @botpress/skill-choice, version 10.20.1","timestamp":"2018-07-02T02:42:21.494Z"}
+{"level":"info","message":"Loaded 8 modules","timestamp":"2018-07-02T02:42:21.495Z"}
+{"level":"info","message":"[Skills] Loaded 1 skills","timestamp":"2018-07-02T02:42:21.496Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\content, doing nothing.","timestamp":"2018-07-02T02:42:21.496Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-07-02T02:42:21.520Z"}
+{"level":"debug","message":"Loading middleware: rendering.instrumentation","timestamp":"2018-07-02T02:42:21.520Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureInMessages","timestamp":"2018-07-02T02:42:21.520Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-07-02T02:42:21.522Z"}
+{"level":"debug","message":"Loading middleware: nlu.incoming","timestamp":"2018-07-02T02:42:21.522Z"}
+{"level":"debug","message":"Loading middleware: qna.incoming","timestamp":"2018-07-02T02:42:21.522Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-07-02T02:42:21.522Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureOutMessages","timestamp":"2018-07-02T02:42:21.523Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-07-02T02:42:21.523Z"}
+{"level":"debug","message":"Loading middleware: webchat.sendMessages","timestamp":"2018-07-02T02:42:21.524Z"}
+{"level":"debug","message":"Loading middleware: fallback","timestamp":"2018-07-02T02:42:21.524Z"}
+{"level":"debug","message":"Loading data for builtin_text from builtin_text.json","timestamp":"2018-07-02T02:42:21.554Z"}
+{"level":"info","message":"Read 26 item(s) from builtin_text.json","timestamp":"2018-07-02T02:42:21.561Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: https://bcc66925.ngrok.io\u001b[22m\u001b[39m","timestamp":"2018-07-02T02:42:21.572Z"}
+{"level":"debug","message":"Loading data for builtin_image from builtin_image.json","timestamp":"2018-07-02T02:42:21.585Z"}
+{"level":"debug","message":"Loading data for builtin_single-choice from builtin_single-choice.json","timestamp":"2018-07-02T02:42:21.586Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_single-choice.json","timestamp":"2018-07-02T02:42:21.587Z"}
+{"level":"debug","message":"Loading data for builtin_card from builtin_card.json","timestamp":"2018-07-02T02:42:21.588Z"}
+{"level":"debug","message":"Loading data for builtin_action-button from builtin_action-button.json","timestamp":"2018-07-02T02:42:21.588Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_action-button.json","timestamp":"2018-07-02T02:42:21.589Z"}
+{"level":"debug","message":"Loading data for builtin_carousel from builtin_carousel.json","timestamp":"2018-07-02T02:42:21.591Z"}
+{"level":"debug","message":"Loading data for builtin_raw from builtin_raw.json","timestamp":"2018-07-02T02:42:21.591Z"}
+{"level":"debug","message":"[NLU::Native] Model is up to date","timestamp":"2018-07-02T02:42:21.990Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T02:42:21.991Z"}
+{"level":"info","message":"Webchat available at https://bcc66925.ngrok.io/s/chat","timestamp":"2018-07-02T02:42:21.992Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T02:42:21.992Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T02:45:06.507Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T02:58:19.431Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      **  LOAD \t ","timestamp":"2018-07-02T02:59:47.946Z"}
+{"level":"debug","message":"Dialog: [main] ( N/A )                       <~  RECV \t \"hi\"","timestamp":"2018-07-02T02:59:47.978Z"}
+{"level":"debug","message":"Dialog: [main] ( N/A )                       !!  KALL \t ","timestamp":"2018-07-02T02:59:47.981Z"}
+{"level":"debug","message":"Dialog: [main] ( N/A )                       ..  KALL \t ","timestamp":"2018-07-02T02:59:47.982Z"}
+{"level":"debug","message":"Dialog: [main] ( N/A )                       ?X  KALL \t ","timestamp":"2018-07-02T02:59:47.986Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    !!  ENTR \t ","timestamp":"2018-07-02T02:59:47.991Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    ..  NOWT \t ","timestamp":"2018-07-02T02:59:47.995Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    ??  MTCH \t cond = \"event.nlu.intent.is('hello')\"","timestamp":"2018-07-02T02:59:47.997Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"hello\"","timestamp":"2018-07-02T02:59:48.002Z"}
+{"level":"debug","message":"Dialog: [main] (hello)                       !!  ENTR \t ","timestamp":"2018-07-02T02:59:48.008Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-VfEg9\"","timestamp":"2018-07-02T02:59:48.011Z"}
+{"level":"debug","message":"Dialog: [main] (hello)                       ..  NOWT \t ","timestamp":"2018-07-02T02:59:48.020Z"}
+{"level":"debug","message":"Dialog: [main] (hello)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T02:59:48.021Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      --  ENDF \t ","timestamp":"2018-07-02T02:59:48.046Z"}
+{"level":"debug","message":"QnA: matched NLU intent __qna__jlv23zumle_giao_h_ng_ti_t_ki_m_giao_h_ng___n_bao_nhi_u_t_nh_t","timestamp":"2018-07-02T03:00:02.132Z"}
+{"level":"debug","message":"QnA: replying to recognized question with plain text answer jlv23zumle_giao_h_ng_ti_t_ki_m_giao_h_ng___n_bao_nhi_u_t_nh_t","timestamp":"2018-07-02T03:00:02.136Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T03:03:24.479Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T03:08:29.520Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T03:13:34.552Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T03:18:39.588Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T03:23:44.612Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T03:28:49.649Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T03:33:54.675Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T03:38:59.706Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T03:44:04.739Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T03:49:09.773Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T03:54:14.800Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T03:59:19.832Z"}
+{"level":"info","message":"Starting botpress version 10.20.1","timestamp":"2018-07-02T04:03:28.442Z"}
+{"level":"info","message":"[Ghost Content Manager] (transparent) Initialized","timestamp":"2018-07-02T04:03:28.602Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\media, doing nothing.","timestamp":"2018-07-02T04:03:28.609Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\flows, doing nothing.","timestamp":"2018-07-02T04:03:28.610Z"}
+{"level":"info","message":"[Skills] Initiated","timestamp":"2018-07-02T04:03:28.615Z"}
+{"level":"info","message":"Loaded @botpress/analytics, version 10.20.1","timestamp":"2018-07-02T04:03:28.624Z"}
+{"level":"info","message":"Loaded @botpress/audience, version 10.20.1","timestamp":"2018-07-02T04:03:28.626Z"}
+{"level":"verbose","message":"[Renderers] Enabled for facebook.","timestamp":"2018-07-02T04:03:28.644Z"}
+{"level":"info","message":"Loaded @botpress/channel-messenger, version 10.17.3","timestamp":"2018-07-02T04:03:28.648Z"}
+{"level":"verbose","message":"[Renderers] Enabled for webchat.","timestamp":"2018-07-02T04:03:28.821Z"}
+{"level":"info","message":"Loaded @botpress/channel-web, version 10.20.1","timestamp":"2018-07-02T04:03:28.823Z"}
+{"level":"info","message":"Loaded @botpress/hitl, version 10.20.1","timestamp":"2018-07-02T04:03:28.828Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\intents, doing nothing.","timestamp":"2018-07-02T04:03:29.148Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\entities, doing nothing.","timestamp":"2018-07-02T04:03:29.150Z"}
+{"level":"info","message":"Loaded @botpress/nlu, version 10.20.1","timestamp":"2018-07-02T04:03:29.153Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder qna, doing nothing.","timestamp":"2018-07-02T04:03:29.160Z"}
+{"level":"info","message":"Loaded @botpress/qna, version 10.20.1","timestamp":"2018-07-02T04:03:29.160Z"}
+{"level":"info","message":"Loaded @botpress/skill-choice, version 10.20.1","timestamp":"2018-07-02T04:03:29.166Z"}
+{"level":"info","message":"Loaded 8 modules","timestamp":"2018-07-02T04:03:29.166Z"}
+{"level":"info","message":"[Skills] Loaded 1 skills","timestamp":"2018-07-02T04:03:29.168Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\content, doing nothing.","timestamp":"2018-07-02T04:03:29.168Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-07-02T04:03:29.192Z"}
+{"level":"debug","message":"Loading middleware: rendering.instrumentation","timestamp":"2018-07-02T04:03:29.192Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureInMessages","timestamp":"2018-07-02T04:03:29.196Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-07-02T04:03:29.197Z"}
+{"level":"debug","message":"Loading middleware: nlu.incoming","timestamp":"2018-07-02T04:03:29.197Z"}
+{"level":"debug","message":"Loading middleware: qna.incoming","timestamp":"2018-07-02T04:03:29.197Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-07-02T04:03:29.198Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureOutMessages","timestamp":"2018-07-02T04:03:29.198Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-07-02T04:03:29.199Z"}
+{"level":"debug","message":"Loading middleware: webchat.sendMessages","timestamp":"2018-07-02T04:03:29.199Z"}
+{"level":"debug","message":"Loading middleware: fallback","timestamp":"2018-07-02T04:03:29.200Z"}
+{"level":"debug","message":"Loading data for builtin_text from builtin_text.json","timestamp":"2018-07-02T04:03:29.234Z"}
+{"level":"info","message":"Read 26 item(s) from builtin_text.json","timestamp":"2018-07-02T04:03:29.242Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: https://bcc66925.ngrok.io\u001b[22m\u001b[39m","timestamp":"2018-07-02T04:03:29.252Z"}
+{"level":"debug","message":"Loading data for builtin_image from builtin_image.json","timestamp":"2018-07-02T04:03:29.267Z"}
+{"level":"debug","message":"Loading data for builtin_single-choice from builtin_single-choice.json","timestamp":"2018-07-02T04:03:29.268Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_single-choice.json","timestamp":"2018-07-02T04:03:29.272Z"}
+{"level":"debug","message":"Loading data for builtin_card from builtin_card.json","timestamp":"2018-07-02T04:03:29.273Z"}
+{"level":"debug","message":"Loading data for builtin_action-button from builtin_action-button.json","timestamp":"2018-07-02T04:03:29.277Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_action-button.json","timestamp":"2018-07-02T04:03:29.277Z"}
+{"level":"debug","message":"Loading data for builtin_carousel from builtin_carousel.json","timestamp":"2018-07-02T04:03:29.278Z"}
+{"level":"debug","message":"Loading data for builtin_raw from builtin_raw.json","timestamp":"2018-07-02T04:03:29.278Z"}
+{"level":"debug","message":"[NLU::Native] Model is up to date","timestamp":"2018-07-02T04:03:29.686Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T04:03:29.690Z"}
+{"level":"info","message":"Webchat available at https://bcc66925.ngrok.io/s/chat","timestamp":"2018-07-02T04:03:29.690Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T04:03:29.691Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      **  LOAD \t ","timestamp":"2018-07-02T04:03:36.256Z"}
+{"level":"error","message":"Could not fetch modules","timestamp":"2018-07-02T04:03:38.039Z"}
+{"level":"debug","message":"Fetched invalid modules. Report this to the Botpress Team.","timestamp":"2018-07-02T04:03:38.044Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T04:04:29.898Z"}
+{"level":"debug","message":"QnA: matched NLU intent __qna__24wqsbd12f_chuy_n_h_ng_t____n_m_t_bao_nhi_u_ti_n","timestamp":"2018-07-02T04:06:38.887Z"}
+{"level":"debug","message":"QnA: replying to recognized question with redirect 24wqsbd12f_chuy_n_h_ng_t____n_m_t_bao_nhi_u_ti_n","timestamp":"2018-07-02T04:06:38.889Z"}
+{"level":"debug","message":"QnA: jumping webchat:npxhUtYPEG0xDtW0Zsvzl fee.flow.json weight","timestamp":"2018-07-02T04:06:38.889Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       <~  RECV \t \"tính phí\"","timestamp":"2018-07-02T04:06:38.916Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  ENTR \t ","timestamp":"2018-07-02T04:06:38.930Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-RikZw\"","timestamp":"2018-07-02T04:06:38.934Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       <~  RECV \t \"3kg\"","timestamp":"2018-07-02T04:06:44.852Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  RECV \t ","timestamp":"2018-07-02T04:06:44.857Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  EXEC \t func \"setWeight\"","timestamp":"2018-07-02T04:06:44.860Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  SSET \t ","timestamp":"2018-07-02T04:06:44.862Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       ..  RECV \t ","timestamp":"2018-07-02T04:06:44.864Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:06:44.866Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"sender\"","timestamp":"2018-07-02T04:06:44.867Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  ENTR \t ","timestamp":"2018-07-02T04:06:44.879Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-Zrifq\"","timestamp":"2018-07-02T04:06:44.883Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       <~  RECV \t \"ha noi, viet nam\"","timestamp":"2018-07-02T04:06:54.411Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  RECV \t ","timestamp":"2018-07-02T04:06:54.414Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  EXEC \t func \"setSenderAddress\"","timestamp":"2018-07-02T04:06:54.415Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  SSET \t ","timestamp":"2018-07-02T04:06:54.415Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       ..  RECV \t ","timestamp":"2018-07-02T04:06:54.416Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:06:54.416Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"recipient\"","timestamp":"2018-07-02T04:06:54.418Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  ENTR \t ","timestamp":"2018-07-02T04:06:54.424Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-SBvrH\"","timestamp":"2018-07-02T04:06:54.425Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    <~  RECV \t \"ho chi minh, việt na\"","timestamp":"2018-07-02T04:07:03.282Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  RECV \t ","timestamp":"2018-07-02T04:07:03.287Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  EXEC \t func \"setRecipientAddress\"","timestamp":"2018-07-02T04:07:03.287Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  SSET \t ","timestamp":"2018-07-02T04:07:03.289Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    ..  RECV \t ","timestamp":"2018-07-02T04:07:03.289Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:07:03.290Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"announce\"","timestamp":"2018-07-02T04:07:03.290Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     !!  ENTR \t ","timestamp":"2018-07-02T04:07:03.305Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     !!  EXEC \t func \"calculateDistance\"","timestamp":"2018-07-02T04:07:03.311Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     ..  NOWT \t ","timestamp":"2018-07-02T04:07:03.316Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:07:03.319Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     >>  FLOW \t \"main.flow.json\"","timestamp":"2018-07-02T04:07:03.319Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    !!  ENTR \t ","timestamp":"2018-07-02T04:07:03.334Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    ..  NOWT \t ","timestamp":"2018-07-02T04:07:03.342Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:07:03.345Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"sorry\"","timestamp":"2018-07-02T04:07:03.346Z"}
+{"level":"debug","message":"Dialog: [main] (sorry)                       !!  ENTR \t ","timestamp":"2018-07-02T04:07:03.363Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-fTlSv\"","timestamp":"2018-07-02T04:07:03.368Z"}
+{"level":"debug","message":"Dialog: [main] (sorry)                       ..  NOWT \t ","timestamp":"2018-07-02T04:07:03.371Z"}
+{"level":"debug","message":"Dialog: [main] (sorry)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:07:03.375Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      --  ENDF \t ","timestamp":"2018-07-02T04:07:03.442Z"}
+{"level":"info","message":"Starting botpress version 10.20.1","timestamp":"2018-07-02T04:09:30.382Z"}
+{"level":"info","message":"[Ghost Content Manager] (transparent) Initialized","timestamp":"2018-07-02T04:09:30.549Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\media, doing nothing.","timestamp":"2018-07-02T04:09:30.558Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\flows, doing nothing.","timestamp":"2018-07-02T04:09:30.560Z"}
+{"level":"info","message":"[Skills] Initiated","timestamp":"2018-07-02T04:09:30.561Z"}
+{"level":"info","message":"Loaded @botpress/analytics, version 10.20.1","timestamp":"2018-07-02T04:09:30.573Z"}
+{"level":"info","message":"Loaded @botpress/audience, version 10.20.1","timestamp":"2018-07-02T04:09:30.574Z"}
+{"level":"verbose","message":"[Renderers] Enabled for facebook.","timestamp":"2018-07-02T04:09:30.590Z"}
+{"level":"info","message":"Loaded @botpress/channel-messenger, version 10.17.3","timestamp":"2018-07-02T04:09:30.596Z"}
+{"level":"verbose","message":"[Renderers] Enabled for webchat.","timestamp":"2018-07-02T04:09:30.773Z"}
+{"level":"info","message":"Loaded @botpress/channel-web, version 10.20.1","timestamp":"2018-07-02T04:09:30.774Z"}
+{"level":"info","message":"Loaded @botpress/hitl, version 10.20.1","timestamp":"2018-07-02T04:09:30.778Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\intents, doing nothing.","timestamp":"2018-07-02T04:09:31.084Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\entities, doing nothing.","timestamp":"2018-07-02T04:09:31.088Z"}
+{"level":"info","message":"Loaded @botpress/nlu, version 10.20.1","timestamp":"2018-07-02T04:09:31.089Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder qna, doing nothing.","timestamp":"2018-07-02T04:09:31.095Z"}
+{"level":"info","message":"Loaded @botpress/qna, version 10.20.1","timestamp":"2018-07-02T04:09:31.095Z"}
+{"level":"info","message":"Loaded @botpress/skill-choice, version 10.20.1","timestamp":"2018-07-02T04:09:31.101Z"}
+{"level":"info","message":"Loaded 8 modules","timestamp":"2018-07-02T04:09:31.101Z"}
+{"level":"info","message":"[Skills] Loaded 1 skills","timestamp":"2018-07-02T04:09:31.102Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\content, doing nothing.","timestamp":"2018-07-02T04:09:31.103Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-07-02T04:09:31.126Z"}
+{"level":"debug","message":"Loading middleware: rendering.instrumentation","timestamp":"2018-07-02T04:09:31.126Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureInMessages","timestamp":"2018-07-02T04:09:31.129Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-07-02T04:09:31.130Z"}
+{"level":"debug","message":"Loading middleware: nlu.incoming","timestamp":"2018-07-02T04:09:31.131Z"}
+{"level":"debug","message":"Loading middleware: qna.incoming","timestamp":"2018-07-02T04:09:31.131Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-07-02T04:09:31.131Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureOutMessages","timestamp":"2018-07-02T04:09:31.131Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-07-02T04:09:31.132Z"}
+{"level":"debug","message":"Loading middleware: webchat.sendMessages","timestamp":"2018-07-02T04:09:31.132Z"}
+{"level":"debug","message":"Loading middleware: fallback","timestamp":"2018-07-02T04:09:31.132Z"}
+{"level":"debug","message":"Loading data for builtin_text from builtin_text.json","timestamp":"2018-07-02T04:09:31.166Z"}
+{"level":"info","message":"Read 26 item(s) from builtin_text.json","timestamp":"2018-07-02T04:09:31.173Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: https://bcc66925.ngrok.io\u001b[22m\u001b[39m","timestamp":"2018-07-02T04:09:31.183Z"}
+{"level":"debug","message":"Loading data for builtin_image from builtin_image.json","timestamp":"2018-07-02T04:09:31.198Z"}
+{"level":"debug","message":"Loading data for builtin_single-choice from builtin_single-choice.json","timestamp":"2018-07-02T04:09:31.202Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_single-choice.json","timestamp":"2018-07-02T04:09:31.202Z"}
+{"level":"debug","message":"Loading data for builtin_card from builtin_card.json","timestamp":"2018-07-02T04:09:31.203Z"}
+{"level":"debug","message":"Loading data for builtin_action-button from builtin_action-button.json","timestamp":"2018-07-02T04:09:31.204Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_action-button.json","timestamp":"2018-07-02T04:09:31.204Z"}
+{"level":"debug","message":"Loading data for builtin_carousel from builtin_carousel.json","timestamp":"2018-07-02T04:09:31.206Z"}
+{"level":"debug","message":"Loading data for builtin_raw from builtin_raw.json","timestamp":"2018-07-02T04:09:31.207Z"}
+{"level":"debug","message":"[NLU::Native] Model is up to date","timestamp":"2018-07-02T04:09:31.594Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T04:09:31.595Z"}
+{"level":"info","message":"Webchat available at https://bcc66925.ngrok.io/s/chat","timestamp":"2018-07-02T04:09:31.599Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T04:09:31.600Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T04:09:36.098Z"}
+{"level":"debug","message":"QnA: matched NLU intent __qna__24wqsbd12f_chuy_n_h_ng_t____n_m_t_bao_nhi_u_ti_n","timestamp":"2018-07-02T04:09:43.746Z"}
+{"level":"debug","message":"QnA: replying to recognized question with redirect 24wqsbd12f_chuy_n_h_ng_t____n_m_t_bao_nhi_u_ti_n","timestamp":"2018-07-02T04:09:43.750Z"}
+{"level":"debug","message":"QnA: jumping webchat:npxhUtYPEG0xDtW0Zsvzl fee.flow.json weight","timestamp":"2018-07-02T04:09:43.751Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      **  LOAD \t ","timestamp":"2018-07-02T04:09:43.752Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       <~  RECV \t \"tính phí\"","timestamp":"2018-07-02T04:09:43.782Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  ENTR \t ","timestamp":"2018-07-02T04:09:43.794Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-RikZw\"","timestamp":"2018-07-02T04:09:43.795Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       <~  RECV \t \"3\"","timestamp":"2018-07-02T04:09:46.446Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  RECV \t ","timestamp":"2018-07-02T04:09:46.450Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  EXEC \t func \"setWeight\"","timestamp":"2018-07-02T04:09:46.451Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  SSET \t ","timestamp":"2018-07-02T04:09:46.451Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       ..  RECV \t ","timestamp":"2018-07-02T04:09:46.452Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:09:46.454Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"sender\"","timestamp":"2018-07-02T04:09:46.454Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  ENTR \t ","timestamp":"2018-07-02T04:09:46.466Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-Zrifq\"","timestamp":"2018-07-02T04:09:46.467Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       <~  RECV \t \"hang than, ha noi\"","timestamp":"2018-07-02T04:09:52.319Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  RECV \t ","timestamp":"2018-07-02T04:09:52.320Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  EXEC \t func \"setSenderAddress\"","timestamp":"2018-07-02T04:09:52.321Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  SSET \t ","timestamp":"2018-07-02T04:09:52.325Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       ..  RECV \t ","timestamp":"2018-07-02T04:09:52.326Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:09:52.326Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"recipient\"","timestamp":"2018-07-02T04:09:52.326Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  ENTR \t ","timestamp":"2018-07-02T04:09:52.344Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-SBvrH\"","timestamp":"2018-07-02T04:09:52.344Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    <~  RECV \t \"hang bac, ha noi\"","timestamp":"2018-07-02T04:09:55.851Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  RECV \t ","timestamp":"2018-07-02T04:09:55.855Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  EXEC \t func \"setRecipientAddress\"","timestamp":"2018-07-02T04:09:55.856Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  SSET \t ","timestamp":"2018-07-02T04:09:55.856Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    ..  RECV \t ","timestamp":"2018-07-02T04:09:55.857Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:09:55.858Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"announce\"","timestamp":"2018-07-02T04:09:55.858Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     !!  ENTR \t ","timestamp":"2018-07-02T04:09:55.870Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     !!  EXEC \t func \"calculateDistance\"","timestamp":"2018-07-02T04:09:55.877Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     ..  NOWT \t ","timestamp":"2018-07-02T04:09:55.880Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:09:55.885Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     >>  FLOW \t \"main.flow.json\"","timestamp":"2018-07-02T04:09:55.885Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    !!  ENTR \t ","timestamp":"2018-07-02T04:09:55.898Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    ..  NOWT \t ","timestamp":"2018-07-02T04:09:55.904Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    ??  MTCH \t cond = \"event.nlu.intent.is('hello')\"","timestamp":"2018-07-02T04:09:55.908Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"hello\"","timestamp":"2018-07-02T04:09:55.911Z"}
+{"level":"debug","message":"Dialog: [main] (hello)                       !!  ENTR \t ","timestamp":"2018-07-02T04:09:55.924Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-VfEg9\"","timestamp":"2018-07-02T04:09:55.925Z"}
+{"level":"debug","message":"Dialog: [main] (hello)                       ..  NOWT \t ","timestamp":"2018-07-02T04:09:55.926Z"}
+{"level":"debug","message":"Dialog: [main] (hello)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:09:55.929Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      --  ENDF \t ","timestamp":"2018-07-02T04:09:55.981Z"}
+{"level":"info","message":"Starting botpress version 10.20.1","timestamp":"2018-07-02T04:11:43.664Z"}
+{"level":"info","message":"[Ghost Content Manager] (transparent) Initialized","timestamp":"2018-07-02T04:11:43.829Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\media, doing nothing.","timestamp":"2018-07-02T04:11:43.834Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\flows, doing nothing.","timestamp":"2018-07-02T04:11:43.836Z"}
+{"level":"info","message":"[Skills] Initiated","timestamp":"2018-07-02T04:11:43.837Z"}
+{"level":"info","message":"Loaded @botpress/analytics, version 10.20.1","timestamp":"2018-07-02T04:11:43.847Z"}
+{"level":"info","message":"Loaded @botpress/audience, version 10.20.1","timestamp":"2018-07-02T04:11:43.851Z"}
+{"level":"verbose","message":"[Renderers] Enabled for facebook.","timestamp":"2018-07-02T04:11:43.867Z"}
+{"level":"info","message":"Loaded @botpress/channel-messenger, version 10.17.3","timestamp":"2018-07-02T04:11:43.868Z"}
+{"level":"verbose","message":"[Renderers] Enabled for webchat.","timestamp":"2018-07-02T04:11:44.076Z"}
+{"level":"info","message":"Loaded @botpress/channel-web, version 10.20.1","timestamp":"2018-07-02T04:11:44.081Z"}
+{"level":"info","message":"Loaded @botpress/hitl, version 10.20.1","timestamp":"2018-07-02T04:11:44.087Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\intents, doing nothing.","timestamp":"2018-07-02T04:11:44.434Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\entities, doing nothing.","timestamp":"2018-07-02T04:11:44.436Z"}
+{"level":"info","message":"Loaded @botpress/nlu, version 10.20.1","timestamp":"2018-07-02T04:11:44.439Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder qna, doing nothing.","timestamp":"2018-07-02T04:11:44.444Z"}
+{"level":"info","message":"Loaded @botpress/qna, version 10.20.1","timestamp":"2018-07-02T04:11:44.448Z"}
+{"level":"info","message":"Loaded @botpress/skill-choice, version 10.20.1","timestamp":"2018-07-02T04:11:44.458Z"}
+{"level":"info","message":"Loaded 8 modules","timestamp":"2018-07-02T04:11:44.458Z"}
+{"level":"info","message":"[Skills] Loaded 1 skills","timestamp":"2018-07-02T04:11:44.460Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\content, doing nothing.","timestamp":"2018-07-02T04:11:44.461Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-07-02T04:11:44.485Z"}
+{"level":"debug","message":"Loading middleware: rendering.instrumentation","timestamp":"2018-07-02T04:11:44.489Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureInMessages","timestamp":"2018-07-02T04:11:44.490Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-07-02T04:11:44.490Z"}
+{"level":"debug","message":"Loading middleware: nlu.incoming","timestamp":"2018-07-02T04:11:44.491Z"}
+{"level":"debug","message":"Loading middleware: qna.incoming","timestamp":"2018-07-02T04:11:44.491Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-07-02T04:11:44.492Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureOutMessages","timestamp":"2018-07-02T04:11:44.492Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-07-02T04:11:44.493Z"}
+{"level":"debug","message":"Loading middleware: webchat.sendMessages","timestamp":"2018-07-02T04:11:44.494Z"}
+{"level":"debug","message":"Loading middleware: fallback","timestamp":"2018-07-02T04:11:44.494Z"}
+{"level":"debug","message":"Loading data for builtin_text from builtin_text.json","timestamp":"2018-07-02T04:11:44.527Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: https://bcc66925.ngrok.io\u001b[22m\u001b[39m","timestamp":"2018-07-02T04:11:44.546Z"}
+{"level":"info","message":"Read 26 item(s) from builtin_text.json","timestamp":"2018-07-02T04:11:44.553Z"}
+{"level":"debug","message":"Loading data for builtin_image from builtin_image.json","timestamp":"2018-07-02T04:11:44.565Z"}
+{"level":"debug","message":"Loading data for builtin_single-choice from builtin_single-choice.json","timestamp":"2018-07-02T04:11:44.566Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_single-choice.json","timestamp":"2018-07-02T04:11:44.572Z"}
+{"level":"debug","message":"Loading data for builtin_card from builtin_card.json","timestamp":"2018-07-02T04:11:44.574Z"}
+{"level":"debug","message":"Loading data for builtin_action-button from builtin_action-button.json","timestamp":"2018-07-02T04:11:44.574Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_action-button.json","timestamp":"2018-07-02T04:11:44.575Z"}
+{"level":"debug","message":"Loading data for builtin_carousel from builtin_carousel.json","timestamp":"2018-07-02T04:11:44.576Z"}
+{"level":"debug","message":"Loading data for builtin_raw from builtin_raw.json","timestamp":"2018-07-02T04:11:44.579Z"}
+{"level":"debug","message":"[NLU::Native] Model is up to date","timestamp":"2018-07-02T04:11:44.988Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T04:11:44.992Z"}
+{"level":"info","message":"Webchat available at https://bcc66925.ngrok.io/s/chat","timestamp":"2018-07-02T04:11:44.992Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T04:11:44.992Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      **  LOAD \t ","timestamp":"2018-07-02T04:11:45.698Z"}
+{"level":"debug","message":"QnA: matched NLU intent __qna__24wqsbd12f_chuy_n_h_ng_t____n_m_t_bao_nhi_u_ti_n","timestamp":"2018-07-02T04:12:41.298Z"}
+{"level":"debug","message":"QnA: replying to recognized question with redirect 24wqsbd12f_chuy_n_h_ng_t____n_m_t_bao_nhi_u_ti_n","timestamp":"2018-07-02T04:12:41.301Z"}
+{"level":"debug","message":"QnA: jumping webchat:npxhUtYPEG0xDtW0Zsvzl fee.flow.json weight","timestamp":"2018-07-02T04:12:41.302Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      **  LOAD \t ","timestamp":"2018-07-02T04:12:41.303Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       <~  RECV \t \"tính phí\"","timestamp":"2018-07-02T04:12:41.344Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  ENTR \t ","timestamp":"2018-07-02T04:12:41.357Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-RikZw\"","timestamp":"2018-07-02T04:12:41.358Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       <~  RECV \t \"3\"","timestamp":"2018-07-02T04:12:43.877Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  RECV \t ","timestamp":"2018-07-02T04:12:43.881Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  EXEC \t func \"setWeight\"","timestamp":"2018-07-02T04:12:43.882Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  SSET \t ","timestamp":"2018-07-02T04:12:43.883Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       ..  RECV \t ","timestamp":"2018-07-02T04:12:43.883Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:12:43.884Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"sender\"","timestamp":"2018-07-02T04:12:43.885Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  ENTR \t ","timestamp":"2018-07-02T04:12:43.897Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-Zrifq\"","timestamp":"2018-07-02T04:12:43.901Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       <~  RECV \t \"hang than, ha noi\"","timestamp":"2018-07-02T04:12:50.011Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  RECV \t ","timestamp":"2018-07-02T04:12:50.014Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  EXEC \t func \"setSenderAddress\"","timestamp":"2018-07-02T04:12:50.017Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  SSET \t ","timestamp":"2018-07-02T04:12:50.023Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       ..  RECV \t ","timestamp":"2018-07-02T04:12:50.026Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:12:50.029Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"recipient\"","timestamp":"2018-07-02T04:12:50.033Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  ENTR \t ","timestamp":"2018-07-02T04:12:50.049Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-SBvrH\"","timestamp":"2018-07-02T04:12:50.050Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    <~  RECV \t \"hang bac, ha noi\"","timestamp":"2018-07-02T04:12:54.397Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  RECV \t ","timestamp":"2018-07-02T04:12:54.401Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  EXEC \t func \"setRecipientAddress\"","timestamp":"2018-07-02T04:12:54.403Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  SSET \t ","timestamp":"2018-07-02T04:12:54.407Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    ..  RECV \t ","timestamp":"2018-07-02T04:12:54.413Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:12:54.414Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"announce\"","timestamp":"2018-07-02T04:12:54.415Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     !!  ENTR \t ","timestamp":"2018-07-02T04:12:54.426Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     !!  EXEC \t func \"calculateDistance\"","timestamp":"2018-07-02T04:12:54.430Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     ..  NOWT \t ","timestamp":"2018-07-02T04:12:54.433Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:12:54.434Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     >>  FLOW \t \"main.flow.json\"","timestamp":"2018-07-02T04:12:54.434Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    !!  ENTR \t ","timestamp":"2018-07-02T04:12:54.447Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    ..  NOWT \t ","timestamp":"2018-07-02T04:12:54.451Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    ??  MTCH \t cond = \"event.nlu.intent.is('hello')\"","timestamp":"2018-07-02T04:12:54.454Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"hello\"","timestamp":"2018-07-02T04:12:54.455Z"}
+{"level":"debug","message":"Dialog: [main] (hello)                       !!  ENTR \t ","timestamp":"2018-07-02T04:12:54.469Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-VfEg9\"","timestamp":"2018-07-02T04:12:54.476Z"}
+{"level":"debug","message":"Dialog: [main] (hello)                       ..  NOWT \t ","timestamp":"2018-07-02T04:12:54.477Z"}
+{"level":"debug","message":"Dialog: [main] (hello)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:12:54.481Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      --  ENDF \t ","timestamp":"2018-07-02T04:12:54.531Z"}
+{"level":"info","message":"Starting botpress version 10.20.1","timestamp":"2018-07-02T04:14:06.026Z"}
+{"level":"info","message":"[Ghost Content Manager] (transparent) Initialized","timestamp":"2018-07-02T04:14:06.192Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\media, doing nothing.","timestamp":"2018-07-02T04:14:06.198Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\flows, doing nothing.","timestamp":"2018-07-02T04:14:06.200Z"}
+{"level":"info","message":"[Skills] Initiated","timestamp":"2018-07-02T04:14:06.201Z"}
+{"level":"info","message":"Loaded @botpress/analytics, version 10.20.1","timestamp":"2018-07-02T04:14:06.211Z"}
+{"level":"info","message":"Loaded @botpress/audience, version 10.20.1","timestamp":"2018-07-02T04:14:06.213Z"}
+{"level":"verbose","message":"[Renderers] Enabled for facebook.","timestamp":"2018-07-02T04:14:06.229Z"}
+{"level":"info","message":"Loaded @botpress/channel-messenger, version 10.17.3","timestamp":"2018-07-02T04:14:06.233Z"}
+{"level":"verbose","message":"[Renderers] Enabled for webchat.","timestamp":"2018-07-02T04:14:06.401Z"}
+{"level":"info","message":"Loaded @botpress/channel-web, version 10.20.1","timestamp":"2018-07-02T04:14:06.405Z"}
+{"level":"info","message":"Loaded @botpress/hitl, version 10.20.1","timestamp":"2018-07-02T04:14:06.415Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\intents, doing nothing.","timestamp":"2018-07-02T04:14:06.742Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\entities, doing nothing.","timestamp":"2018-07-02T04:14:06.746Z"}
+{"level":"info","message":"Loaded @botpress/nlu, version 10.20.1","timestamp":"2018-07-02T04:14:06.747Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder qna, doing nothing.","timestamp":"2018-07-02T04:14:06.753Z"}
+{"level":"info","message":"Loaded @botpress/qna, version 10.20.1","timestamp":"2018-07-02T04:14:06.753Z"}
+{"level":"info","message":"Loaded @botpress/skill-choice, version 10.20.1","timestamp":"2018-07-02T04:14:06.759Z"}
+{"level":"info","message":"Loaded 8 modules","timestamp":"2018-07-02T04:14:06.759Z"}
+{"level":"info","message":"[Skills] Loaded 1 skills","timestamp":"2018-07-02T04:14:06.761Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\content, doing nothing.","timestamp":"2018-07-02T04:14:06.764Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-07-02T04:14:06.790Z"}
+{"level":"debug","message":"Loading middleware: rendering.instrumentation","timestamp":"2018-07-02T04:14:06.794Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureInMessages","timestamp":"2018-07-02T04:14:06.796Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-07-02T04:14:06.798Z"}
+{"level":"debug","message":"Loading middleware: nlu.incoming","timestamp":"2018-07-02T04:14:06.798Z"}
+{"level":"debug","message":"Loading middleware: qna.incoming","timestamp":"2018-07-02T04:14:06.800Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-07-02T04:14:06.803Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureOutMessages","timestamp":"2018-07-02T04:14:06.803Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-07-02T04:14:06.805Z"}
+{"level":"debug","message":"Loading middleware: webchat.sendMessages","timestamp":"2018-07-02T04:14:06.807Z"}
+{"level":"debug","message":"Loading middleware: fallback","timestamp":"2018-07-02T04:14:06.807Z"}
+{"level":"debug","message":"Loading data for builtin_text from builtin_text.json","timestamp":"2018-07-02T04:14:06.841Z"}
+{"level":"info","message":"Read 26 item(s) from builtin_text.json","timestamp":"2018-07-02T04:14:06.849Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: https://bcc66925.ngrok.io\u001b[22m\u001b[39m","timestamp":"2018-07-02T04:14:06.860Z"}
+{"level":"debug","message":"Loading data for builtin_image from builtin_image.json","timestamp":"2018-07-02T04:14:06.874Z"}
+{"level":"debug","message":"Loading data for builtin_single-choice from builtin_single-choice.json","timestamp":"2018-07-02T04:14:06.875Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_single-choice.json","timestamp":"2018-07-02T04:14:06.882Z"}
+{"level":"debug","message":"Loading data for builtin_card from builtin_card.json","timestamp":"2018-07-02T04:14:06.883Z"}
+{"level":"debug","message":"Loading data for builtin_action-button from builtin_action-button.json","timestamp":"2018-07-02T04:14:06.887Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_action-button.json","timestamp":"2018-07-02T04:14:06.891Z"}
+{"level":"debug","message":"Loading data for builtin_carousel from builtin_carousel.json","timestamp":"2018-07-02T04:14:06.892Z"}
+{"level":"debug","message":"Loading data for builtin_raw from builtin_raw.json","timestamp":"2018-07-02T04:14:06.893Z"}
+{"level":"debug","message":"[NLU::Native] Model is up to date","timestamp":"2018-07-02T04:14:07.285Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T04:14:07.286Z"}
+{"level":"info","message":"Webchat available at https://bcc66925.ngrok.io/s/chat","timestamp":"2018-07-02T04:14:07.290Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T04:14:07.290Z"}
+{"level":"debug","message":"QnA: matched NLU intent __qna__24wqsbd12f_chuy_n_h_ng_t____n_m_t_bao_nhi_u_ti_n","timestamp":"2018-07-02T04:14:21.617Z"}
+{"level":"debug","message":"QnA: replying to recognized question with redirect 24wqsbd12f_chuy_n_h_ng_t____n_m_t_bao_nhi_u_ti_n","timestamp":"2018-07-02T04:14:21.619Z"}
+{"level":"debug","message":"QnA: jumping webchat:npxhUtYPEG0xDtW0Zsvzl fee.flow.json weight","timestamp":"2018-07-02T04:14:21.623Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      **  LOAD \t ","timestamp":"2018-07-02T04:14:21.625Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       <~  RECV \t \"tính phí\"","timestamp":"2018-07-02T04:14:21.659Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  ENTR \t ","timestamp":"2018-07-02T04:14:21.673Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-RikZw\"","timestamp":"2018-07-02T04:14:21.674Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       <~  RECV \t \"3 kg\"","timestamp":"2018-07-02T04:14:26.433Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  RECV \t ","timestamp":"2018-07-02T04:14:26.437Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  EXEC \t func \"setWeight\"","timestamp":"2018-07-02T04:14:26.438Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  SSET \t ","timestamp":"2018-07-02T04:14:26.440Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       ..  RECV \t ","timestamp":"2018-07-02T04:14:26.441Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:14:26.442Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"sender\"","timestamp":"2018-07-02T04:14:26.447Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  ENTR \t ","timestamp":"2018-07-02T04:14:26.472Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-Zrifq\"","timestamp":"2018-07-02T04:14:26.477Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T04:14:36.758Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       <>  NTHG \t ","timestamp":"2018-07-02T04:16:35.909Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      --  ENDF \t ","timestamp":"2018-07-02T04:16:35.923Z"}
+{"level":"info","message":"Starting botpress version 10.20.1","timestamp":"2018-07-02T04:16:52.844Z"}
+{"level":"info","message":"[Ghost Content Manager] (transparent) Initialized","timestamp":"2018-07-02T04:16:53.008Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\media, doing nothing.","timestamp":"2018-07-02T04:16:53.014Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\flows, doing nothing.","timestamp":"2018-07-02T04:16:53.016Z"}
+{"level":"info","message":"[Skills] Initiated","timestamp":"2018-07-02T04:16:53.018Z"}
+{"level":"info","message":"Loaded @botpress/analytics, version 10.20.1","timestamp":"2018-07-02T04:16:53.028Z"}
+{"level":"info","message":"Loaded @botpress/audience, version 10.20.1","timestamp":"2018-07-02T04:16:53.029Z"}
+{"level":"verbose","message":"[Renderers] Enabled for facebook.","timestamp":"2018-07-02T04:16:53.048Z"}
+{"level":"info","message":"Loaded @botpress/channel-messenger, version 10.17.3","timestamp":"2018-07-02T04:16:53.049Z"}
+{"level":"verbose","message":"[Renderers] Enabled for webchat.","timestamp":"2018-07-02T04:16:53.230Z"}
+{"level":"info","message":"Loaded @botpress/channel-web, version 10.20.1","timestamp":"2018-07-02T04:16:53.233Z"}
+{"level":"info","message":"Loaded @botpress/hitl, version 10.20.1","timestamp":"2018-07-02T04:16:53.238Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\intents, doing nothing.","timestamp":"2018-07-02T04:16:53.555Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\entities, doing nothing.","timestamp":"2018-07-02T04:16:53.559Z"}
+{"level":"info","message":"Loaded @botpress/nlu, version 10.20.1","timestamp":"2018-07-02T04:16:53.560Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder qna, doing nothing.","timestamp":"2018-07-02T04:16:53.566Z"}
+{"level":"info","message":"Loaded @botpress/qna, version 10.20.1","timestamp":"2018-07-02T04:16:53.569Z"}
+{"level":"info","message":"Loaded @botpress/skill-choice, version 10.20.1","timestamp":"2018-07-02T04:16:53.575Z"}
+{"level":"info","message":"Loaded 8 modules","timestamp":"2018-07-02T04:16:53.579Z"}
+{"level":"info","message":"[Skills] Loaded 1 skills","timestamp":"2018-07-02T04:16:53.583Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\content, doing nothing.","timestamp":"2018-07-02T04:16:53.587Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-07-02T04:16:53.619Z"}
+{"level":"debug","message":"Loading middleware: rendering.instrumentation","timestamp":"2018-07-02T04:16:53.624Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureInMessages","timestamp":"2018-07-02T04:16:53.624Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-07-02T04:16:53.627Z"}
+{"level":"debug","message":"Loading middleware: nlu.incoming","timestamp":"2018-07-02T04:16:53.627Z"}
+{"level":"debug","message":"Loading middleware: qna.incoming","timestamp":"2018-07-02T04:16:53.628Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-07-02T04:16:53.629Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureOutMessages","timestamp":"2018-07-02T04:16:53.632Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-07-02T04:16:53.633Z"}
+{"level":"debug","message":"Loading middleware: webchat.sendMessages","timestamp":"2018-07-02T04:16:53.633Z"}
+{"level":"debug","message":"Loading middleware: fallback","timestamp":"2018-07-02T04:16:53.633Z"}
+{"level":"debug","message":"Loading data for builtin_text from builtin_text.json","timestamp":"2018-07-02T04:16:53.664Z"}
+{"level":"info","message":"Read 26 item(s) from builtin_text.json","timestamp":"2018-07-02T04:16:53.674Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: https://bcc66925.ngrok.io\u001b[22m\u001b[39m","timestamp":"2018-07-02T04:16:53.683Z"}
+{"level":"debug","message":"Loading data for builtin_image from builtin_image.json","timestamp":"2018-07-02T04:16:53.699Z"}
+{"level":"debug","message":"Loading data for builtin_single-choice from builtin_single-choice.json","timestamp":"2018-07-02T04:16:53.700Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_single-choice.json","timestamp":"2018-07-02T04:16:53.701Z"}
+{"level":"debug","message":"Loading data for builtin_card from builtin_card.json","timestamp":"2018-07-02T04:16:53.702Z"}
+{"level":"debug","message":"Loading data for builtin_action-button from builtin_action-button.json","timestamp":"2018-07-02T04:16:53.707Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_action-button.json","timestamp":"2018-07-02T04:16:53.708Z"}
+{"level":"debug","message":"Loading data for builtin_carousel from builtin_carousel.json","timestamp":"2018-07-02T04:16:53.709Z"}
+{"level":"debug","message":"Loading data for builtin_raw from builtin_raw.json","timestamp":"2018-07-02T04:16:53.710Z"}
+{"level":"debug","message":"[NLU::Native] Model is up to date","timestamp":"2018-07-02T04:16:54.071Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T04:16:54.075Z"}
+{"level":"info","message":"Webchat available at https://bcc66925.ngrok.io/s/chat","timestamp":"2018-07-02T04:16:54.075Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T04:16:54.076Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      **  LOAD \t ","timestamp":"2018-07-02T04:16:55.018Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T04:19:38.582Z"}
+{"level":"info","message":"Starting botpress version 10.20.1","timestamp":"2018-07-02T04:20:12.759Z"}
+{"level":"info","message":"[Ghost Content Manager] (transparent) Initialized","timestamp":"2018-07-02T04:20:12.931Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\media, doing nothing.","timestamp":"2018-07-02T04:20:12.937Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\flows, doing nothing.","timestamp":"2018-07-02T04:20:12.942Z"}
+{"level":"info","message":"[Skills] Initiated","timestamp":"2018-07-02T04:20:12.946Z"}
+{"level":"info","message":"Loaded @botpress/analytics, version 10.20.1","timestamp":"2018-07-02T04:20:12.955Z"}
+{"level":"info","message":"Loaded @botpress/audience, version 10.20.1","timestamp":"2018-07-02T04:20:12.959Z"}
+{"level":"verbose","message":"[Renderers] Enabled for facebook.","timestamp":"2018-07-02T04:20:12.978Z"}
+{"level":"info","message":"Loaded @botpress/channel-messenger, version 10.17.3","timestamp":"2018-07-02T04:20:12.982Z"}
+{"level":"verbose","message":"[Renderers] Enabled for webchat.","timestamp":"2018-07-02T04:20:13.172Z"}
+{"level":"info","message":"Loaded @botpress/channel-web, version 10.20.1","timestamp":"2018-07-02T04:20:13.173Z"}
+{"level":"info","message":"Loaded @botpress/hitl, version 10.20.1","timestamp":"2018-07-02T04:20:13.178Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\intents, doing nothing.","timestamp":"2018-07-02T04:20:13.518Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\entities, doing nothing.","timestamp":"2018-07-02T04:20:13.522Z"}
+{"level":"info","message":"Loaded @botpress/nlu, version 10.20.1","timestamp":"2018-07-02T04:20:13.523Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder qna, doing nothing.","timestamp":"2018-07-02T04:20:13.530Z"}
+{"level":"info","message":"Loaded @botpress/qna, version 10.20.1","timestamp":"2018-07-02T04:20:13.534Z"}
+{"level":"info","message":"Loaded @botpress/skill-choice, version 10.20.1","timestamp":"2018-07-02T04:20:13.541Z"}
+{"level":"info","message":"Loaded 8 modules","timestamp":"2018-07-02T04:20:13.542Z"}
+{"level":"info","message":"[Skills] Loaded 1 skills","timestamp":"2018-07-02T04:20:13.543Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\content, doing nothing.","timestamp":"2018-07-02T04:20:13.544Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-07-02T04:20:13.568Z"}
+{"level":"debug","message":"Loading middleware: rendering.instrumentation","timestamp":"2018-07-02T04:20:13.569Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureInMessages","timestamp":"2018-07-02T04:20:13.573Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-07-02T04:20:13.574Z"}
+{"level":"debug","message":"Loading middleware: nlu.incoming","timestamp":"2018-07-02T04:20:13.574Z"}
+{"level":"debug","message":"Loading middleware: qna.incoming","timestamp":"2018-07-02T04:20:13.574Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-07-02T04:20:13.575Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureOutMessages","timestamp":"2018-07-02T04:20:13.575Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-07-02T04:20:13.576Z"}
+{"level":"debug","message":"Loading middleware: webchat.sendMessages","timestamp":"2018-07-02T04:20:13.576Z"}
+{"level":"debug","message":"Loading middleware: fallback","timestamp":"2018-07-02T04:20:13.576Z"}
+{"level":"debug","message":"Loading data for builtin_text from builtin_text.json","timestamp":"2018-07-02T04:20:13.611Z"}
+{"level":"info","message":"Read 26 item(s) from builtin_text.json","timestamp":"2018-07-02T04:20:13.618Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: https://bcc66925.ngrok.io\u001b[22m\u001b[39m","timestamp":"2018-07-02T04:20:13.630Z"}
+{"level":"debug","message":"Loading data for builtin_image from builtin_image.json","timestamp":"2018-07-02T04:20:13.645Z"}
+{"level":"debug","message":"Loading data for builtin_single-choice from builtin_single-choice.json","timestamp":"2018-07-02T04:20:13.647Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_single-choice.json","timestamp":"2018-07-02T04:20:13.648Z"}
+{"level":"debug","message":"Loading data for builtin_card from builtin_card.json","timestamp":"2018-07-02T04:20:13.649Z"}
+{"level":"debug","message":"Loading data for builtin_action-button from builtin_action-button.json","timestamp":"2018-07-02T04:20:13.650Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_action-button.json","timestamp":"2018-07-02T04:20:13.653Z"}
+{"level":"debug","message":"Loading data for builtin_carousel from builtin_carousel.json","timestamp":"2018-07-02T04:20:13.654Z"}
+{"level":"debug","message":"Loading data for builtin_raw from builtin_raw.json","timestamp":"2018-07-02T04:20:13.655Z"}
+{"level":"debug","message":"[NLU::Native] Model is up to date","timestamp":"2018-07-02T04:20:14.025Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T04:20:14.026Z"}
+{"level":"info","message":"Webchat available at https://bcc66925.ngrok.io/s/chat","timestamp":"2018-07-02T04:20:14.029Z"}
+{"level":"info","message":"------------","timestamp":"2018-07-02T04:20:14.030Z"}
+{"level":"debug","message":"QnA: matched NLU intent __qna__24wqsbd12f_chuy_n_h_ng_t____n_m_t_bao_nhi_u_ti_n","timestamp":"2018-07-02T04:20:23.753Z"}
+{"level":"debug","message":"QnA: replying to recognized question with redirect 24wqsbd12f_chuy_n_h_ng_t____n_m_t_bao_nhi_u_ti_n","timestamp":"2018-07-02T04:20:23.758Z"}
+{"level":"debug","message":"QnA: jumping webchat:npxhUtYPEG0xDtW0Zsvzl fee.flow.json weight","timestamp":"2018-07-02T04:20:23.758Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      **  LOAD \t ","timestamp":"2018-07-02T04:20:23.760Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       <~  RECV \t \"tính phí\"","timestamp":"2018-07-02T04:20:23.790Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  ENTR \t ","timestamp":"2018-07-02T04:20:23.803Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-RikZw\"","timestamp":"2018-07-02T04:20:23.804Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       <~  RECV \t \"tôi muốn chuyển 4 kg\"","timestamp":"2018-07-02T04:20:31.721Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  RECV \t ","timestamp":"2018-07-02T04:20:31.724Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  EXEC \t func \"setWeight\"","timestamp":"2018-07-02T04:20:31.725Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  SSET \t ","timestamp":"2018-07-02T04:20:31.726Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       ..  RECV \t ","timestamp":"2018-07-02T04:20:31.727Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:20:31.728Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"sender\"","timestamp":"2018-07-02T04:20:31.728Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  ENTR \t ","timestamp":"2018-07-02T04:20:31.753Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-Zrifq\"","timestamp":"2018-07-02T04:20:31.758Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       <~  RECV \t \"hàng than, hà nội\"","timestamp":"2018-07-02T04:20:39.141Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  RECV \t ","timestamp":"2018-07-02T04:20:39.141Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  EXEC \t func \"setSenderAddress\"","timestamp":"2018-07-02T04:20:39.145Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  SSET \t ","timestamp":"2018-07-02T04:20:39.146Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       ..  RECV \t ","timestamp":"2018-07-02T04:20:39.148Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:20:39.148Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"recipient\"","timestamp":"2018-07-02T04:20:39.149Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  ENTR \t ","timestamp":"2018-07-02T04:20:39.173Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-SBvrH\"","timestamp":"2018-07-02T04:20:39.177Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    <~  RECV \t \"hàng bạc hà nội\"","timestamp":"2018-07-02T04:20:45.063Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  RECV \t ","timestamp":"2018-07-02T04:20:45.067Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  EXEC \t func \"setRecipientAddress\"","timestamp":"2018-07-02T04:20:45.070Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  SSET \t ","timestamp":"2018-07-02T04:20:45.074Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    ..  RECV \t ","timestamp":"2018-07-02T04:20:45.080Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:20:45.086Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"announce\"","timestamp":"2018-07-02T04:20:45.089Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     !!  ENTR \t ","timestamp":"2018-07-02T04:20:45.121Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     !!  EXEC \t func \"calculateDistance\"","timestamp":"2018-07-02T04:20:45.126Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     ..  NOWT \t ","timestamp":"2018-07-02T04:20:45.129Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:20:45.130Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     >>  FLOW \t \"main.flow.json\"","timestamp":"2018-07-02T04:20:45.134Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    !!  ENTR \t ","timestamp":"2018-07-02T04:20:45.155Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    ..  NOWT \t ","timestamp":"2018-07-02T04:20:45.164Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:20:45.179Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"sorry\"","timestamp":"2018-07-02T04:20:45.183Z"}
+{"level":"debug","message":"Dialog: [main] (sorry)                       !!  ENTR \t ","timestamp":"2018-07-02T04:20:45.212Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-fTlSv\"","timestamp":"2018-07-02T04:20:45.217Z"}
+{"level":"debug","message":"Dialog: [main] (sorry)                       ..  NOWT \t ","timestamp":"2018-07-02T04:20:45.220Z"}
+{"level":"debug","message":"Dialog: [main] (sorry)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:20:45.221Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      --  ENDF \t ","timestamp":"2018-07-02T04:20:45.287Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T04:24:43.573Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T04:29:48.607Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T04:34:53.640Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T04:39:58.689Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T04:45:03.714Z"}
+{"level":"debug","message":"QnA: matched NLU intent __qna__24wqsbd12f_chuy_n_h_ng_t____n_m_t_bao_nhi_u_ti_n","timestamp":"2018-07-02T04:48:27.936Z"}
+{"level":"debug","message":"QnA: replying to recognized question with redirect 24wqsbd12f_chuy_n_h_ng_t____n_m_t_bao_nhi_u_ti_n","timestamp":"2018-07-02T04:48:27.939Z"}
+{"level":"debug","message":"QnA: jumping webchat:npxhUtYPEG0xDtW0Zsvzl fee.flow.json weight","timestamp":"2018-07-02T04:48:27.940Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      **  LOAD \t ","timestamp":"2018-07-02T04:48:27.942Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       <~  RECV \t \"tính phí\"","timestamp":"2018-07-02T04:48:27.975Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  ENTR \t ","timestamp":"2018-07-02T04:48:27.989Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-RikZw\"","timestamp":"2018-07-02T04:48:27.990Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       <~  RECV \t \"4 kg\"","timestamp":"2018-07-02T04:48:32.714Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  RECV \t ","timestamp":"2018-07-02T04:48:32.718Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  EXEC \t func \"setWeight\"","timestamp":"2018-07-02T04:48:32.720Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       !!  SSET \t ","timestamp":"2018-07-02T04:48:32.720Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       ..  RECV \t ","timestamp":"2018-07-02T04:48:32.721Z"}
+{"level":"debug","message":"Dialog: [fee] (weight)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:48:32.721Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"sender\"","timestamp":"2018-07-02T04:48:32.721Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  ENTR \t ","timestamp":"2018-07-02T04:48:32.744Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-Zrifq\"","timestamp":"2018-07-02T04:48:32.748Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       <~  RECV \t \"6 hang than, ha noi\"","timestamp":"2018-07-02T04:48:41.158Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  RECV \t ","timestamp":"2018-07-02T04:48:41.159Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  EXEC \t func \"setSenderAddress\"","timestamp":"2018-07-02T04:48:41.159Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       !!  SSET \t ","timestamp":"2018-07-02T04:48:41.160Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       ..  RECV \t ","timestamp":"2018-07-02T04:48:41.161Z"}
+{"level":"debug","message":"Dialog: [fee] (sender)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:48:41.161Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"recipient\"","timestamp":"2018-07-02T04:48:41.161Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  ENTR \t ","timestamp":"2018-07-02T04:48:41.186Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-SBvrH\"","timestamp":"2018-07-02T04:48:41.189Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    <~  RECV \t \"7 hang bai, ha noi\"","timestamp":"2018-07-02T04:48:45.883Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  RECV \t ","timestamp":"2018-07-02T04:48:45.887Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  EXEC \t func \"setRecipientAddress\"","timestamp":"2018-07-02T04:48:45.890Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    !!  SSET \t ","timestamp":"2018-07-02T04:48:45.895Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    ..  RECV \t ","timestamp":"2018-07-02T04:48:45.899Z"}
+{"level":"debug","message":"Dialog: [fee] (recipient)                    ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:48:45.901Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"announce\"","timestamp":"2018-07-02T04:48:45.906Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     !!  ENTR \t ","timestamp":"2018-07-02T04:48:45.936Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     !!  EXEC \t func \"calculateDistance\"","timestamp":"2018-07-02T04:48:45.937Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     ..  NOWT \t ","timestamp":"2018-07-02T04:48:45.942Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     ??  MTCH \t cond = \"true\"","timestamp":"2018-07-02T04:48:45.943Z"}
+{"level":"debug","message":"Dialog: [fee] (announce)                     >>  FLOW \t \"main.flow.json\"","timestamp":"2018-07-02T04:48:45.943Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    !!  ENTR \t ","timestamp":"2018-07-02T04:48:45.966Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T04:50:08.749Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    <>  NTHG \t ","timestamp":"2018-07-02T04:50:46.186Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      --  ENDF \t ","timestamp":"2018-07-02T04:50:46.202Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T04:55:13.784Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T05:00:18.829Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T05:05:23.855Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T05:10:28.885Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T05:15:33.922Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T05:20:38.950Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T05:25:43.985Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T05:30:49.021Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T05:35:54.063Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-07-02T05:40:59.099Z"}

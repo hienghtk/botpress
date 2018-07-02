@@ -8,7 +8,7 @@
   "appSecret": "5919715147e57750bb8a142bdf556f74", // ENV Variable: MESSENGER_APP_SECRET
 
   "verifyToken": "botpress", // <== Input a long random, hard-to-guess string here
-  "hostname": "3d80df33.ngrok.io", // The URL to reach your bot, must be HTTPS (google: ngrok)
+  "hostname": "ca458f5a.ngrok.io", // The URL to reach your bot, must be HTTPS (google: ngrok)
 
   /************
     Optional settings

@@ -1,6 +1,6 @@
 const isProd = process.env.NODE_ENV === 'production'
 const port = process.env.BOTPRESS_PORT || process.env.PORT || 3000
-const botUrl = process.env.BOTPRESS_URL || `https://3d80df33.ngrok.io`
+const botUrl = process.env.BOTPRESS_URL || `https://ca458f5a.ngrok.io`
 
 module.exports = {
   /*

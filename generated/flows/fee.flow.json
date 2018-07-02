@@ -16,7 +16,7 @@
         "say #!builtin_text-RikZwc"
       ],
       "onReceive": [
-        "setWeight {\"weight\":\"{{event.text}}\"}"
+        "setWeight {}"
       ]
     },
     {
@@ -32,7 +32,7 @@
         "say #!builtin_text-Zrifqo"
       ],
       "onReceive": [
-        "setSenderAddress {\"origin\":\"{{event.text}}\"}"
+        "setSenderAddress {}"
       ]
     },
     {
@@ -48,7 +48,7 @@
         "say #!builtin_text-SBvrHK"
       ],
       "onReceive": [
-        "setRecipientAddress {\"dest\":\"{{event.text}}\"}"
+        "setRecipientAddress {}"
       ]
     },
     {
@@ -61,7 +61,7 @@
         }
       ],
       "onEnter": [
-        "calculateDistance {\"origin\":\"{{state.origin}}\",\"dest\":\"{{state.dest}}\"}"
+        "calculateDistance {}"
       ],
       "onReceive": null
     }
