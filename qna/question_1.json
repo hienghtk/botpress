@@ -1,0 +1,17 @@
+{
+  "id": "question_1",
+  "data": {
+    "questions": [
+      "bye bye",
+      "Tạm biệt",
+      "Bye",
+      "Goodbye",
+      "Hẹn gặp lại"
+    ],
+    "answer": "Tạm biệt. Hẹn gặp lại bạn sau :)",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "enabled": true
+  }
+}

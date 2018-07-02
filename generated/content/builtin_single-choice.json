@@ -1,0 +1,25 @@
+[
+  {
+    "id": "builtin_single-choice-E3tJzK",
+    "formData": {
+      "text": "Vui lòng chọn sự hỗ trợ cần thiết",
+      "choices": [
+        {
+          "title": "Cước phí vận chuyển",
+          "value": "fee"
+        },
+        {
+          "title": "Thông tin đơn hàng",
+          "value": "package"
+        },
+        {
+          "title": "Các thông tin khác",
+          "value": "infor"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T04:48:38.503Z"
+  }
+]

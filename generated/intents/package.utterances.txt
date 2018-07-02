@@ -1,0 +1,5 @@
+hàng 
+tình trạng hàng hóa
+sao khách chưa nhận được hàng
+sao tôi chưa nhận được hàng
+hàng của tôi đã đến đâu rồi

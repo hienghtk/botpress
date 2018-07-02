@@ -1,0 +1,49 @@
+{
+  /************
+    THESE ARE REQUIRED FOR YOUR BOT TO RUN
+  *************/
+
+  "applicationID": "174712383208698", // ENV Variable: MESSENGER_APP_ID
+  "accessToken": "EAACe5mWJZCPoBAFkLQTVwuFvQrmmEj3ppgLEIJDUKl2VYMTttDU9AaLHAM2RcsPZBZArSJEZCTGRyizSuovEWFinqIMnwZCHoYfW8ujRmoBfkZAqUVYzMeMLKtRhV1SwCmLkKBfS2uojjcv18W4YWTCZB4v2kfiVZB8uSyfeZBe7VogZDZD", // ENV Variable: MESSENGER_ACCESS_TOKEN
+  "appSecret": "5919715147e57750bb8a142bdf556f74", // ENV Variable: MESSENGER_APP_SECRET
+
+  "verifyToken": "botpress", // <== Input a long random, hard-to-guess string here
+  "hostname": "3d80df33.ngrok.io", // The URL to reach your bot, must be HTTPS (google: ngrok)
+
+  /************
+    Optional settings
+  *************/
+
+  "graphVersion": "2.12",
+  "enabled": true,
+
+  "displayGetStarted": true,
+  "greetingMessage": "Default greeting message",
+
+  // Documentation
+  // https://developers.facebook.com/docs/messenger-platform/messenger-profile/persistent-menu
+  "persistentMenu": [],
+  "persistentMenuItems": [],
+
+  "composerInputDisabled": false,
+  "automaticallyMarkAsRead": true,
+  "targetAudience": "openToAll",
+  "trustedDomains": [],
+
+  "autoResponseOption": "noResponse",
+  "autoResponseText": "Hello, human!",
+  "autoResponsePostback": "OK",
+
+  "paymentTesters": [],
+  "chatExtensionHomeUrl": "",
+  "chatExtensionInTest": true,
+  "chatExtensionShowShareButton": false,
+  "webhookSubscriptionFields": [
+    "message_deliveries",
+    // "message_ads",
+    "messages",
+    "messaging_optins",
+    "messaging_postbacks",
+    "messaging_referrals"
+  ]
+}

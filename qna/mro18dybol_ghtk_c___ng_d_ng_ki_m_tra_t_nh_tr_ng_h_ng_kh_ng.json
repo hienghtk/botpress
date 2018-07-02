@@ -1,0 +1,15 @@
+{
+  "id": "mro18dybol_ghtk_c___ng_d_ng_ki_m_tra_t_nh_tr_ng_h_ng_kh_ng",
+  "data": {
+    "questions": [
+      "GHTK có ứng dụng kiểm tra tình trạng hàng không?",
+      "Hàng của tôi hiện tại ở đâu?",
+      "Làm sao để kiểm tra hàng của tôi đã đến đâu?"
+    ],
+    "answer": "Vui lòng cài đặt ứng dụng Giao hàng tiết kiệm, đăng nhập và kiểm tra tình trạng hàng hóa của bạn.",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "enabled": true
+  }
+}

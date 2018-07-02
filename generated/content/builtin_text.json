@@ -1,0 +1,241 @@
+[
+  {
+    "id": "builtin_text-pSsHWg",
+    "formData": {
+      "text": "👋, {{state.$r}}! How can I help you?",
+      "variations": [
+        "Hello, {{state.$r}}!"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:57:36.026Z"
+  },
+  {
+    "id": "builtin_text-AY5SSW",
+    "formData": {
+      "text": "This is the first time we speak 🤖",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:59:51.118Z"
+  },
+  {
+    "id": "builtin_text-bFsOmf",
+    "formData": {
+      "text": "We already spoke {{state.$r}} times!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:00:37.593Z"
+  },
+  {
+    "id": "builtin_text-TtzrCV",
+    "formData": {
+      "text": "Alright, I have forgotten your name.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:06:41.963Z"
+  },
+  {
+    "id": "builtin_text-z0J9qh",
+    "formData": {
+      "text": "May I know your name please?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:08:41.241Z"
+  },
+  {
+    "id": "builtin_text-X069Le",
+    "formData": {
+      "text": "Try saying something like \"forget my name\"!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:16:53.227Z"
+  },
+  {
+    "id": "builtin_text-kKQ8C3",
+    "formData": {
+      "text": "(To see how this works, double-click anywhere on the flow and go to the \"Transitions\" panel)",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:17:55.317Z"
+  },
+  {
+    "id": "builtin_text-lcTHv9",
+    "formData": {
+      "text": "Nhập khối lượng hàng cần chuyển (đơn vị: kg)\nVí dụ: 0.5 (kg)",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T04:10:37.895Z"
+  },
+  {
+    "id": "builtin_text-PkDqC8",
+    "formData": {
+      "text": "Bạn muốn biết thông tin gì?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T04:30:12.758Z"
+  },
+  {
+    "id": "builtin_text-cAfG82",
+    "formData": {
+      "text": "Vui lòng cung cấp thông tin về hàng hóa của bạn.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T04:30:55.287Z"
+  },
+  {
+    "id": "builtin_text-q0i6EK",
+    "formData": {
+      "text": "Vui lòng chọn dịch vụ hỗ trợ tương ứng",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T04:46:03.266Z"
+  },
+  {
+    "id": "builtin_text-sSF~6T",
+    "formData": {
+      "text": "Bạn đã nhập khối lượng là {{state.weight}} kg.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T07:24:55.718Z"
+  },
+  {
+    "id": "builtin_text-FHSMgG",
+    "formData": {
+      "text": "Nhập địa chỉ người nhận hàng\nVí dụ: Quan Nhân, Cầu Giấy, Hà Nội",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T08:11:40.589Z"
+  },
+  {
+    "id": "builtin_text-d6vasM",
+    "formData": {
+      "text": "Khoảng cách chuyển hàng là {{state.distance}} với phí là {{state.distance}} ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T08:15:55.554Z"
+  },
+  {
+    "id": "builtin_text-RPndv9",
+    "formData": {
+      "text": "Bạn đã nhập địa chỉ người gửi là {{state.origin}}.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T08:18:34.141Z"
+  },
+  {
+    "id": "builtin_text-0Vy1pM",
+    "formData": {
+      "text": "Nhập địa chỉ người gửi",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T08:19:55.914Z"
+  },
+  {
+    "id": "builtin_text-rO1NDR",
+    "formData": {
+      "text": "Địa chỉ người nhận là {{state.dest}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T08:57:40.113Z"
+  },
+  {
+    "id": "builtin_text-AV0Pbf",
+    "formData": {
+      "text": "Xin chào",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-29T03:21:07.625Z"
+  },
+  {
+    "id": "builtin_text-FKpI~G",
+    "formData": {
+      "text": "Vui lòng chọn sự trợ giúp thích hợp",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-29T06:38:37.915Z"
+  },
+  {
+    "id": "builtin_text-9iYpFu",
+    "formData": {
+      "text": "Rất tiếc không có thông tin bạn cần.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-29T06:42:39.077Z"
+  },
+  {
+    "id": "builtin_text-VfEg96",
+    "formData": {
+      "text": "Xin chào, tôi là Helen. Tôi có thể giúp gì bạn?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-30T03:54:53.465Z"
+  },
+  {
+    "id": "builtin_text-fTlSvK",
+    "formData": {
+      "text": "Xin lỗi, tôi không hiểu câu hỏi của bạn.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-30T04:13:05.260Z"
+  },
+  {
+    "id": "builtin_text-RikZwc",
+    "formData": {
+      "text": "Nhập khối lượng hàng hóa.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-30T04:55:09.759Z"
+  },
+  {
+    "id": "builtin_text-Zrifqo",
+    "formData": {
+      "text": "Nhập địa chỉ người gửi",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-30T04:57:22.256Z"
+  },
+  {
+    "id": "builtin_text-SBvrHK",
+    "formData": {
+      "text": "Nhập địa chỉ người nhận",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-30T04:58:14.040Z"
+  },
+  {
+    "id": "builtin_text-icXaKF",
+    "formData": {
+      "text": "Với khoảng cách {{state.distance}}, số tiền bạn phải trả là {{state.distance}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-30T05:00:34.016Z"
+  }
+]

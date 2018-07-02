@@ -1,0 +1,69 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "weight",
+  "nodes": [
+    {
+      "id": "2bc5fbca60",
+      "name": "weight",
+      "next": [
+        {
+          "condition": "true",
+          "node": "sender"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-RikZwc"
+      ],
+      "onReceive": [
+        "setWeight {\"weight\":\"{{event.text}}\"}"
+      ]
+    },
+    {
+      "id": "1cbd209a5a",
+      "name": "sender",
+      "next": [
+        {
+          "condition": "true",
+          "node": "recipient"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Zrifqo"
+      ],
+      "onReceive": [
+        "setSenderAddress {\"origin\":\"{{event.text}}\"}"
+      ]
+    },
+    {
+      "id": "cadc82ce3f",
+      "name": "recipient",
+      "next": [
+        {
+          "condition": "true",
+          "node": "announce"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-SBvrHK"
+      ],
+      "onReceive": [
+        "setRecipientAddress {\"dest\":\"{{event.text}}\"}"
+      ]
+    },
+    {
+      "id": "19e2827acc",
+      "name": "announce",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json"
+        }
+      ],
+      "onEnter": [
+        "calculateDistance {\"origin\":\"{{state.origin}}\",\"dest\":\"{{state.dest}}\"}"
+      ],
+      "onReceive": null
+    }
+  ]
+}

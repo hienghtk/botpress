@@ -1,0 +1,59 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.nlu.intent.is('forget')",
+        "node": ""
+      }
+    ]
+  },
+  "startNode": "ask-name",
+  "nodes": [
+    {
+      "id": "03f8dad1a5",
+      "name": "ask-name",
+      "next": [
+        {
+          "condition": "event.nlu.intent.is('hello')",
+          "node": "hello"
+        },
+        {
+          "condition": "true",
+          "node": "sorry"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "387b193a7f",
+      "name": "hello",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-VfEg96"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "3b7ea724df",
+      "name": "sorry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-fTlSvK"
+      ],
+      "onReceive": null
+    }
+  ]
+}

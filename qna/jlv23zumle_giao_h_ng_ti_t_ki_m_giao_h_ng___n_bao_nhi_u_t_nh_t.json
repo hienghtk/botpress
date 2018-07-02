@@ -1,0 +1,14 @@
+{
+  "id": "jlv23zumle_giao_h_ng_ti_t_ki_m_giao_h_ng___n_bao_nhi_u_t_nh_t",
+  "data": {
+    "questions": [
+      "Có thể giao hàng đến đâu?",
+      "Giao hàng tiết kiệm giao hàng đến bao nhiêu tỉnh thành?"
+    ],
+    "answer": "Hiện tại chúng tôi đã phủ sóng đến 63 tỉnh thành trên toàn quốc.",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "enabled": true
+  }
+}
